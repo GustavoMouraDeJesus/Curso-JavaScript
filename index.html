@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá mundo!</title>
+</head>
+<body>
+    <h1>Anotações de JS:</h1>
+    <h2>Como interagir o html com o js?</h2><p>Para conseguirmos interagir o html com o css, temos que fazer a utilização de um id, esse id vai dentro do elemento dentro do html</p><br>
+    <h2>Oque é document?</h2><p>Document é um comando especifico do js que representa a estrtutura da pagina HTML, quando escrevemos document nos estaremos nos referenciando a toda a estrutura do nosso HTML, e em seguida iremos selecionar o comando do elemento que queremos usar no js, porém, utilizando sempre um "." entre aonde queremos nos referenciar e o elemento que queremos pegar.</p><br>
+    <h2>Porque utilizar o .?</h2><p>O ponto serve para que possamos indicar ao js que o elemento que queremos pegar estar naquela pagina que estamos nos referenciando.</p><br>
+    <h2>Qual comando vai referenciar ao nosso elemento html?</h2><p>O comando que vai buscar o nosso elemento h1 no nosso html é o getElementById, e tudo junto fica "document.getElementById" que significa que, dentro do nosso document (que é nosso html) pegue o elemento pelo id e vamos dizer qual id queremos pegar, para isso vamos adicionar ("o id que queremos pegar")</p><br>
+    <h2>Mas como vamos colocar o texto dentro do nosso elemento pelo js?</h2><p>O comando para colocar um texto dentro do nosso elemento no html é o .textContent="nosso texto", ou seja, o comando todo ficaria da seguindo forma: document.getElementById("ola").textContent="Conteudo do texto"</p><br>
+
+    <h1 id="ola"></h1>
+
+    <h1>O que são variaveis?</h1><p>As variaveis surgiram para que precisasse ficar escrevendo toda a frase ou numero que a gente qeu usar varias vezes. As variaveis são espaços dentro da memoria dentro do nosso programa que a gente vai dar um nome para poder guardar alguma informação, e essa informação vai poder ser acessada e manipulada ao longo do codigo inteiro</p><br>
+
+
+    <script>
+        let nome = "Gustavo"
+        nome = "Giovanna"
+        document.getElementById("ola").textContent= "Olá " + nome
+    </script>
+</body>
+</html>
