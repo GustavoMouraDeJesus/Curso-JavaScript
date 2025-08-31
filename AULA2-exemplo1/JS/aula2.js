@@ -1,6 +1,6 @@
 function adicionarTarefa() { 
             //A primeira linha se trata de uma função, qunadoa  função é chamada, todo nosso código a baixo é executado em ordem.
-      let mensagem = "Tarefa adicionada com sucesso!";
+      let mensagem = "Tarefa adicionada com sucesso!"
 
       let inputTarefa = document.getElementById("inputTarefa")
       //A primeira coisa que acontece é que estamos buscando no nosso documento HTML um elemento com o id inputTarefa, que no caso é o nosso input mesmo.
